@@ -140,6 +140,9 @@ function faveColorFinder(color){
  if (color === 'black'){
   return 'so trendy';
 }
+else {
+  return 'you need to evaluate your favorite color choice'
+}
 }
 // Code here
 
@@ -171,10 +174,10 @@ let globalScope = ["duck"];
 let bathroomScope = ["duck", "rubberDuck"];
 
 //This array should contain the variable names (as strings) accessible in the bathtub function.
-let bathtubScope = ["duck", "sailorDuck", "rubberDuck",];
+let bathtubScope = ["sailorDuck", "rubberDuck", "duck"];
 
 //This array should contain the variable names (as strings) accessible in the pond function.
-let pondScope = ["duck", "sailorDuck", "rubberDuck", "realDuck"];
+let pondScope = ["duck", "realDuck"];
 
 //////////////////PROBLEM 14////////////////////
 
